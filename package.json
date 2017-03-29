@@ -2,10 +2,12 @@
   "name": "github-search-user",
   "version": "1.0.0",
   "description": "A simple React.JS application that allows to search and display the Github user information.",
+  "engines": {
+    "node": "5.9.1"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node server.js"
+    "start": "node index.js"
   },
   "keywords": [
     "React.JS",
@@ -15,6 +17,12 @@
   "license": "ISC",
   "dependencies": {
       "react": "0.14.7",
-      "react-dom": "^0.14.7"
-  }
+      "react-dom": "^0.14.7",
+	  "ejs": "2.4.1",
+	  "express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maaku13/github_search_user"
+  },
 }
