@@ -4,8 +4,7 @@
   "description": "A simple React.JS application that allows to search and display the Github user information.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "React.JS",
@@ -13,11 +12,13 @@
   ],
   "author": "Markvin Subida",
   "license": "ISC",
-  "dependencies": {
-	  "babel-core": "5.8.*",
+    "devDependencies": {
+      "babel-core": "5.8.*",
       "babel-loader": "5.3.*",
-      "react": "^0.14.7",
-      "react-dom": "^0.14.7",
-	  "webpack": "1.12.*"
+      "webpack": "1.12.*"
+  },
+  "dependencies": {
+      "react": "0.14.7",
+      "react-dom": "^0.14.7"
   }
 }
