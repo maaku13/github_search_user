@@ -1,0 +1,39 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+    text-align: center;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+.label {
+    margin-right: 10px;
+}
+
+.panel-link .panel-default:hover {
+  background-color: #D9EDF7 !important;
+}
+
+a.panel-link:hover {
+    text-decoration: none;
+    
+}
