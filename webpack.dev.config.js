@@ -10,7 +10,7 @@ module.exports = {
   ],
 
   output: {
-	path: __dirname,
+	path: path.join(__dirname, 'app'),// 'public'
     filename: 'main.js', // local - 'js/main.js'
 	publicPath: '/app/js/' // local - '/app/'
   },
