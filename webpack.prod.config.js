@@ -17,7 +17,7 @@ module.exports = {
     filename: 'app/js/main.js'*/
 	
 	path: '/',
-    filename: 'app/js/main.js'
+    filename: 'main.js'
   },
 
   plugins: [

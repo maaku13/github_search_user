@@ -3,7 +3,7 @@ const webpack = require('webpack')
 
 module.exports = {
   devtool: 'eval',
-
+  
   entry: [
 	'webpack-hot-middleware/client',
 	'./src/index.js'
@@ -17,7 +17,7 @@ module.exports = {
     filename: 'app/js/main.js'*/
 	
 	path: '/',
-    filename: 'app/js/main.js'
+    filename: 'main.js'
   },
 
   plugins: [
