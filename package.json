@@ -6,7 +6,6 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node app.js",
-	"postinstall": "./node_modules/bower/bin/bower install && npm run build"
   },
   "keywords": [
     "React.JS",
