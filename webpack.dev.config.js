@@ -19,8 +19,9 @@ module.exports = {
 	//path: path.join(__dirname, 'app'),
     //filename: 'main.js'
 	
-	path: '/app/',
-    filename: 'main.js'
+	path: __dirname,
+    filename: 'main.js',
+	publicPath: '/app/js/'
   },
 
   plugins: [
