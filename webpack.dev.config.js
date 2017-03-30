@@ -16,7 +16,7 @@ module.exports = {
 	/*path: '/',
     filename: 'app/js/main.js'*/
 	
-	path: '/',
+	path: path.join(__dirname),
     filename: 'main.js'
   },
 
