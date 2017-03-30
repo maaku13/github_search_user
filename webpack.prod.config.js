@@ -19,8 +19,7 @@ module.exports = {
 	//path: path.join(__dirname),
     //filename: 'main.js'
 	
-	path: path.resolve(__dirname),
-    publicPath: 'http://github-search-user.herokuapp.com/',
+	path: '/app/',
     filename: 'main.js'
   },
 
