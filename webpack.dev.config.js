@@ -11,8 +11,8 @@ module.exports = {
 
   output: {
 	path: path.join(__dirname, 'app'),// 'public'
-    filename: 'main.js', // local - 'js/main.js'
-	publicPath: '/app/js/' // local - '/app/'
+    filename: 'app/js/main.js' // local - 'js/main.js'
+	//publicPath: '/app/js/' // local - '/app/'
   },
 
   plugins: [
