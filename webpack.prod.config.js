@@ -20,7 +20,7 @@ module.exports = {
     //filename: 'main.js'
 	
 	path: path.resolve(__dirname),
-    publicPath: '/',
+    publicPath: 'http://github-search-user.herokuapp.com/',
     filename: 'main.js'
   },
 
