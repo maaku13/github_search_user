@@ -10,9 +10,15 @@ module.exports = {
   ],
 
   output: {
-	path: path.join(__dirname, 'app'),// 'public'
+	/*path: path.join(__dirname, 'app'),// 'public'
     filename: 'app/js/main.js' // local - 'js/main.js'
-	//publicPath: '/app/js/' // local - '/app/'
+	//publicPath: '/app/js/' // local - '/app/'*/
+	/*path: '/',
+    filename: 'app/js/main.js'*/
+	
+	path: path.join(__dirname, 'app'),
+    filename: 'js/main.js',
+    publicPath: '/app/'
   },
 
   plugins: [
