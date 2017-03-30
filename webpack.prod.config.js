@@ -11,8 +11,8 @@ module.exports = {
 
   output: {
 	path: __dirname,
-    filename: 'js/main.js',
-	publicPath: '/app/'
+    filename: 'main.js', // local - 'js/main.js'
+	publicPath: '/app/js/' // local - '/app/'
   },
 
   plugins: [
