@@ -21,7 +21,7 @@ module.exports = {
 	
 	path: __dirname,
     filename: 'main.js',
-	publicPath: '/app/js/'
+	publicPath: '/'
   },
 
   plugins: [
