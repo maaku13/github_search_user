@@ -20,7 +20,7 @@ module.exports = {
     //filename: 'main.js'
 	
 	path: __dirname,
-    filename: 'main.js',
+    filename: 'app/js/main.js',
 	publicPath: '/'
   },
 
